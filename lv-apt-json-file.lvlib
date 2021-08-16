@@ -16,12 +16,16 @@
 	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../Patch of Unflatten Json String.vi"/>
+		<Item Name="Remove Comments.vi" Type="VI" URL="../Remove Comments.vi"/>
 	</Item>
 	<Item Name="AttrMap" Type="Folder">
 		<Item Name="AttrMap-SetValue.vim" Type="VI" URL="../AttrMap-SetValue.vim"/>
 		<Item Name="AttrMap-GetValue.vim" Type="VI" URL="../AttrMap-GetValue.vim"/>
 		<Item Name="ClusterToAttrMap.vi" Type="VI" URL="../ClusterToAttrMap.vi"/>
 		<Item Name="AttrMapToCluster.vi" Type="VI" URL="../AttrMapToCluster.vi"/>
+		<Item Name="AttrMapToJson.vi" Type="VI" URL="../AttrMapToJson.vi"/>
+		<Item Name="JsonToAttrMap.vi" Type="VI" URL="../JsonToAttrMap.vi"/>
+		<Item Name="Def-AttrMap.ctl" Type="VI" URL="../Def-AttrMap.ctl"/>
 	</Item>
 	<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="../Unflatten From JSON String(lv-apt).vi"/>
 	<Item Name="JsonFile Load.vi" Type="VI" URL="../JsonFile Load.vi"/>
