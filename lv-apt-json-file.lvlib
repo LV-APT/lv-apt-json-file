@@ -19,6 +19,7 @@
 		<Item Name="Remove Comments.vi" Type="VI" URL="../Remove Comments.vi"/>
 	</Item>
 	<Item Name="PatchVIs" Type="Folder">
+		<Item Name="Anything To StringKey.vim" Type="VI" URL="../Anything To StringKey.vim"/>
 		<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="../Unflatten From JSON String(lv-apt).vi"/>
 	</Item>
 	<Item Name="AttrMap" Type="Folder">
