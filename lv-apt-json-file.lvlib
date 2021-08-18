@@ -13,6 +13,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="_TEST" Type="Folder">
 		<Item Name="_TEST.vi" Type="VI" URL="../_TEST/_TEST.vi"/>
+		<Item Name="_test_validate_json_format.vi" Type="VI" URL="../_TEST/_test_validate_json_format.vi"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../Patch of Unflatten Json String.vi"/>
