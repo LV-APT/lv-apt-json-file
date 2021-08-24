@@ -14,12 +14,15 @@
 	<Item Name="_TEST" Type="Folder">
 		<Item Name="_TEST.vi" Type="VI" URL="../_TEST/_TEST.vi"/>
 		<Item Name="_test_validate_json_format.vi" Type="VI" URL="../_TEST/_test_validate_json_format.vi"/>
+		<Item Name="_TEST2.vi" Type="VI" URL="../_TEST/_TEST2.vi"/>
 	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../Patch of Unflatten Json String.vi"/>
 		<Item Name="Remove Comments.vi" Type="VI" URL="../Remove Comments.vi"/>
 		<Item Name="RawAttrMap.vi" Type="VI" URL="../RawAttrMap.vi"/>
 		<Item Name="IsAttrMap.vi" Type="VI" URL="../IsAttrMap.vi"/>
+		<Item Name="AttrMap-GetValue-CORE.vim" Type="VI" URL="../_Support/AttrMap-GetValue-CORE.vim"/>
+		<Item Name="AttrMap-SetValue-CORE.vi" Type="VI" URL="../_Support/AttrMap-SetValue-CORE.vi"/>
 	</Item>
 	<Item Name="PatchVIs" Type="Folder">
 		<Item Name="Anything To StringKey.vim" Type="VI" URL="../Anything To StringKey.vim"/>
@@ -28,6 +31,7 @@
 	<Item Name="AttrMap" Type="Folder">
 		<Item Name="AttrMap-SetValue.vim" Type="VI" URL="../AttrMap-SetValue.vim"/>
 		<Item Name="AttrMap-GetValue.vim" Type="VI" URL="../AttrMap-GetValue.vim"/>
+		<Item Name="AttrMap-GetOrgKey.vi" Type="VI" URL="../_Support/AttrMap-GetOrgKey.vi"/>
 		<Item Name="AttrMap-GetValueAsString.vim" Type="VI" URL="../AttrMap-GetValueAsString.vim"/>
 		<Item Name="ClusterToAttrMap.vi" Type="VI" URL="../ClusterToAttrMap.vi"/>
 		<Item Name="AttrMapToCluster.vi" Type="VI" URL="../AttrMapToCluster.vi"/>
@@ -35,7 +39,7 @@
 		<Item Name="JsonToAttrMap.vi" Type="VI" URL="../JsonToAttrMap.vi"/>
 		<Item Name="MergeAttrMap.vi" Type="VI" URL="../MergeAttrMap.vi"/>
 		<Item Name="Def-AttrMap.ctl" Type="VI" URL="../Def-AttrMap.ctl"/>
-		<Item Name="Def-AttrMap -- Enum.ctl" Type="VI" URL="../Def-AttrMap -- Enum.ctl"/>
+		<Item Name="Def-AttrMap -- Map.ctl" Type="VI" URL="../Def-AttrMap -- Map.ctl"/>
 	</Item>
 	<Item Name="JsonFile Load.vi" Type="VI" URL="../JsonFile Load.vi"/>
 	<Item Name="Json Validate.vi" Type="VI" URL="../Json Validate.vi"/>
