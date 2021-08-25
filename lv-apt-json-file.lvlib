@@ -22,7 +22,9 @@
 		<Item Name="RawAttrMap.vi" Type="VI" URL="../RawAttrMap.vi"/>
 		<Item Name="IsAttrMap.vi" Type="VI" URL="../IsAttrMap.vi"/>
 		<Item Name="AttrMap-GetValue-CORE.vim" Type="VI" URL="../_Support/AttrMap-GetValue-CORE.vim"/>
+		<Item Name="AttrMap-GetValue-CORE-String.vi" Type="VI" URL="../_Support/AttrMap-GetValue-CORE-String.vi"/>
 		<Item Name="AttrMap-SetValue-CORE.vi" Type="VI" URL="../_Support/AttrMap-SetValue-CORE.vi"/>
+		<Item Name="AttrMap-UnpackMap.vi" Type="VI" URL="../_Support/AttrMap-UnpackMap.vi"/>
 	</Item>
 	<Item Name="PatchVIs" Type="Folder">
 		<Item Name="Anything To StringKey.vim" Type="VI" URL="../Anything To StringKey.vim"/>
