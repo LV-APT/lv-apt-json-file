@@ -11,11 +11,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="_TEST" Type="Folder">
-		<Item Name="_TEST.vi" Type="VI" URL="../_TEST/_TEST.vi"/>
-		<Item Name="_test_validate_json_format.vi" Type="VI" URL="../_TEST/_test_validate_json_format.vi"/>
-		<Item Name="_TEST2.vi" Type="VI" URL="../_TEST/_TEST2.vi"/>
-	</Item>
 	<Item Name="_Support" Type="Folder">
 		<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../Patch of Unflatten Json String.vi"/>
 		<Item Name="Remove Comments.vi" Type="VI" URL="../Remove Comments.vi"/>
@@ -24,7 +19,7 @@
 		<Item Name="AttrMap-GetValue-CORE.vim" Type="VI" URL="../_Support/AttrMap-GetValue-CORE.vim"/>
 		<Item Name="AttrMap-GetValue-CORE-String.vi" Type="VI" URL="../_Support/AttrMap-GetValue-CORE-String.vi"/>
 		<Item Name="AttrMap-SetValue-CORE.vi" Type="VI" URL="../_Support/AttrMap-SetValue-CORE.vi"/>
-		<Item Name="AttrMap-UnpackMap.vi" Type="VI" URL="../_Support/AttrMap-UnpackMap.vi"/>
+		<Item Name="AttrMap-UnpackNameMap.vi" Type="VI" URL="../_Support/AttrMap-UnpackNameMap.vi"/>
 	</Item>
 	<Item Name="PatchVIs" Type="Folder">
 		<Item Name="Anything To StringKey.vim" Type="VI" URL="../Anything To StringKey.vim"/>
@@ -46,4 +41,7 @@
 	<Item Name="JsonFile Load.vi" Type="VI" URL="../JsonFile Load.vi"/>
 	<Item Name="Json Validate.vi" Type="VI" URL="../Json Validate.vi"/>
 	<Item Name="JsonFile Save.vi" Type="VI" URL="../JsonFile Save.vi"/>
+	<Item Name="AttrMap-SetValue2.vi" Type="VI" URL="../AttrMap-SetValue2.vi"/>
+	<Item Name="AttrMap-GetValue2.vi" Type="VI" URL="../AttrMap-GetValue2.vi"/>
+	<Item Name="AttrMap-Preview.vi" Type="VI" URL="../AttrMap-Preview.vi"/>
 </Library>
