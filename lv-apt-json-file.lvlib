@@ -16,19 +16,15 @@
 		<Item Name="AttrMap-GetValue-CORE.vim" Type="VI" URL="../_Support/AttrMap-GetValue-CORE.vim"/>
 		<Item Name="AttrMap-GetValue-CORE-String.vi" Type="VI" URL="../_Support/AttrMap-GetValue-CORE-String.vi"/>
 		<Item Name="AttrMap-SetValue-CORE.vi" Type="VI" URL="../_Support/AttrMap-SetValue-CORE.vi"/>
-		<Item Name="AttrMap-UnpackNameMap.vi" Type="VI" URL="../_Support/AttrMap-UnpackNameMap.vi"/>
-		<Item Name="__DataToVAttrbutes.vi" Type="VI" URL="../_Support/__DataToVAttrbutes.vi"/>
-		<Item Name="__VAttrbutesToData.vi" Type="VI" URL="../_Support/__VAttrbutesToData.vi"/>
-		<Item Name="__StripDataFromVAttributes.vi" Type="VI" URL="../_Support/__StripDataFromVAttributes.vi"/>
+		<Item Name="__UnpackNameMap.vi" Type="VI" URL="../_Support/__UnpackNameMap.vi"/>
+		<Item Name="__MergeNameMap.vi" Type="VI" URL="../_Support/__MergeNameMap.vi"/>
+		<Item Name="__MergeVAttributes.vi" Type="VI" URL="../_Support/__MergeVAttributes.vi"/>
 	</Item>
 	<Item Name="AttrMap-Old" Type="Folder">
 		<Item Name="AttrMap-SetValue.vim" Type="VI" URL="../AttrMap-SetValue.vim"/>
 		<Item Name="AttrMap-GetValue.vim" Type="VI" URL="../AttrMap-GetValue.vim"/>
 		<Item Name="AttrMap-GetOrgKey.vi" Type="VI" URL="../_Support/AttrMap-GetOrgKey.vi"/>
 		<Item Name="AttrMap-GetValueAsString.vim" Type="VI" URL="../AttrMap-GetValueAsString.vim"/>
-		<Item Name="AttrMapToJson.vi" Type="VI" URL="../AttrMapToJson.vi"/>
-		<Item Name="JsonToAttrMap.vi" Type="VI" URL="../JsonToAttrMap.vi"/>
-		<Item Name="MergeAttrMap.vi" Type="VI" URL="../MergeAttrMap.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="JsonFile" Type="Folder">
@@ -45,17 +41,29 @@
 			<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../API/Json/Patch of Unflatten Json String.vi"/>
 		</Item>
 		<Item Name="AttrMap" Type="Folder">
+			<Item Name="AttrMap &lt;--&gt; Cluster" Type="Folder">
+				<Item Name="ClusterToAttrMap.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Cluster/ClusterToAttrMap.vi"/>
+				<Item Name="AttrMapToCluster.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Cluster/AttrMapToCluster.vi"/>
+			</Item>
+			<Item Name="AttrMap &lt;--&gt; Json" Type="Folder">
+				<Item Name="AttrMapToJson.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Json/AttrMapToJson.vi"/>
+				<Item Name="JsonToAttrMap.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Json/JsonToAttrMap.vi"/>
+			</Item>
 			<Item Name="RawAttrMap.vi" Type="VI" URL="../API/AttrMap/RawAttrMap.vi"/>
 			<Item Name="IsAttrMap.vi" Type="VI" URL="../API/AttrMap/IsAttrMap.vi"/>
+			<Item Name="AttrMap-Merge.vi" Type="VI" URL="../AttrMap-Merge.vi"/>
 			<Item Name="AttrMap-SetValue2.vi" Type="VI" URL="../API/AttrMap/AttrMap-SetValue2.vi"/>
 			<Item Name="AttrMap-GetValue2.vi" Type="VI" URL="../API/AttrMap/AttrMap-GetValue2.vi"/>
 			<Item Name="AttrMap-Preview.vi" Type="VI" URL="../API/AttrMap/AttrMap-Preview.vi"/>
-			<Item Name="ClusterToAttrMap.vi" Type="VI" URL="../API/AttrMap/ClusterToAttrMap.vi"/>
-			<Item Name="AttrMapToCluster.vi" Type="VI" URL="../API/AttrMap/AttrMapToCluster.vi"/>
+		</Item>
+		<Item Name="VAttributes" Type="Folder">
+			<Item Name="StripDataFromVAttributes.vi" Type="VI" URL="../API/VAttributes/StripDataFromVAttributes.vi"/>
+			<Item Name="DataToVAttrbutes.vi" Type="VI" URL="../API/VAttributes/DataToVAttrbutes.vi"/>
+			<Item Name="VAttrbutesToData.vi" Type="VI" URL="../API/VAttributes/VAttrbutesToData.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Def-AttrMap.ctl" Type="VI" URL="../Typedef/Def-AttrMap.ctl"/>
-		<Item Name="Def-AttrMap -- Map.ctl" Type="VI" URL="../Typedef/Def-AttrMap -- Map.ctl"/>
+		<Item Name="Def-AttrMap -- NameMap.ctl" Type="VI" URL="../Typedef/Def-AttrMap -- NameMap.ctl"/>
 	</Item>
 </Library>
