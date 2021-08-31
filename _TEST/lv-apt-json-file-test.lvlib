@@ -4,10 +4,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="test-cases" Type="Folder">
+		<Item Name="MyTestCase.lvclass" Type="LVClass" URL="../../_testcases/MyTestCase/MyTestCase.lvclass"/>
+	</Item>
 	<Item Name="_TEST.vi" Type="VI" URL="../_TEST.vi"/>
 	<Item Name="_TEST2.vi" Type="VI" URL="../_TEST2.vi"/>
 	<Item Name="_test_validate_json_format.vi" Type="VI" URL="../_test_validate_json_format.vi"/>
-	<Item Name="test-mergeVAttributes.vi" Type="VI" URL="../test-mergeVAttributes.vi"/>
+	<Item Name="test-NameMap.vi" Type="VI" URL="../test-NameMap.vi"/>
 	<Item Name="test-setValue2.vi" Type="VI" URL="../test-setValue2.vi"/>
 	<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
 </Library>
