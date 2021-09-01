@@ -8,7 +8,5 @@
 	<Item Name="_TEST.vi" Type="VI" URL="../_TEST.vi"/>
 	<Item Name="_TEST2.vi" Type="VI" URL="../_TEST2.vi"/>
 	<Item Name="_test_validate_json_format.vi" Type="VI" URL="../_test_validate_json_format.vi"/>
-	<Item Name="test-importValue.vi" Type="VI" URL="../test-importValue.vi"/>
-	<Item Name="test-setValue2.vi" Type="VI" URL="../test-setValue2.vi"/>
 	<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
 </Library>
