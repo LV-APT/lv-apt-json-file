@@ -20,10 +20,10 @@
 		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="Probe" Type="Folder">
-				<Item Name="Probe-AttrMap As Tree.vi" Type="VI" URL="../src/Probe/Probe-AttrMap As Tree.vi"/>
-				<Item Name="Probe-Variant As Tree.vi" Type="VI" URL="../src/Probe/Probe-Variant As Tree.vi"/>
+				<Item Name="Probe-AttrMap As Tree.vi" Type="VI" URL="../Probe/Probe-AttrMap As Tree.vi"/>
+				<Item Name="Probe-Variant As Tree.vi" Type="VI" URL="../Probe/Probe-Variant As Tree.vi"/>
 			</Item>
-			<Item Name="lv-apt-json-file.lvlib" Type="Library" URL="../src/lv-apt-json-file.lvlib"/>
+			<Item Name="lv-apt-json-file.lvlib" Type="Library" URL="../lv-apt-json-file.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -142,6 +142,7 @@
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="ini_configuration.lvlib" Type="Library" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Configuration/Ini/ini_configuration.lvlib"/>
+				<Item Name="JSON Pretty Printer.lvlib" Type="Library" URL="/&lt;userlib&gt;/FTools/JSON Pretty Printer/JSON Pretty Printer.lvlib"/>
 				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
 				<Item Name="MGI Current VI&apos;s Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Current VI&apos;s Reference.vi"/>
 				<Item Name="MGI Defer Panel Updates.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Defer Panel Updates.vi"/>
