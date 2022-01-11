@@ -12,6 +12,17 @@
 		<Item Name="__toLowerCase.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__toLowerCase.vi"/>
 		<Item Name="__UnpackNameMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__UnpackNameMap.vi"/>
 		<Item Name="__ValidateDataTD.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__ValidateDataTD.vi"/>
+		<Item Name="_JsonFile_GetAttribute.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/_JsonFile_GetAttribute.vi"/>
+		<Item Name="JsonFile_GetAttribute(Boolean).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_GetAttribute(Boolean).vi"/>
+		<Item Name="JsonFile_GetAttribute(DBL).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_GetAttribute(DBL).vi"/>
+		<Item Name="JsonFile_GetAttribute(Numeric).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_GetAttribute(Numeric).vi"/>
+		<Item Name="JsonFile_GetAttribute(Path).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_GetAttribute(Path).vi"/>
+		<Item Name="JsonFile_GetAttribute(String).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_GetAttribute(String).vi"/>
+		<Item Name="JsonFile_SetAttribute(Boolean).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_SetAttribute(Boolean).vi"/>
+		<Item Name="JsonFile_SetAttribute(DBL).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_SetAttribute(DBL).vi"/>
+		<Item Name="JsonFile_SetAttribute(Numeric).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_SetAttribute(Numeric).vi"/>
+		<Item Name="JsonFile_SetAttribute(Path).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_SetAttribute(Path).vi"/>
+		<Item Name="JsonFile_SetAttribute(String).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/Support/JsonFile_SetAttribute(String).vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="AttrMap" Type="Folder">
@@ -42,8 +53,11 @@
 			<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/Json/Unflatten From JSON String(lv-apt).vi"/>
 		</Item>
 		<Item Name="JsonFile" Type="Folder">
+			<Item Name="JsonFile GetAttribute.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile GetAttribute.vi"/>
 			<Item Name="JsonFile Load.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile Load.vi"/>
 			<Item Name="JsonFile Save.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile Save.vi"/>
+			<Item Name="JsonFile SetAttribute.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile SetAttribute.vi"/>
+			<Item Name="JsonString To VariantStringAttrs.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonString To VariantStringAttrs.vi"/>
 		</Item>
 		<Item Name="NameMap" Type="Folder">
 			<Item Name="NameMap-Check.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/NameMap/NameMap-Check.vi"/>

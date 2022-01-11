@@ -11,19 +11,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_TEST" Type="Folder">
-			<Item Name="lv-apt-json-file-test.lvlib" Type="Library" URL="../_TEST/lv-apt-json-file-test.lvlib"/>
+			<Item Name="lv-apt-json-file-test.lvlib" Type="Library" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_TEST/lv-apt-json-file-test.lvlib"/>
 		</Item>
 		<Item Name="_testcases" Type="Folder">
 			<Item Name="MyTestCase" Type="Folder">
-				<Item Name="MyTestCase.lvclass" Type="LVClass" URL="../_testcases/MyTestCase/MyTestCase.lvclass"/>
+				<Item Name="MyTestCase.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_testcases/MyTestCase/MyTestCase.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="Probe" Type="Folder">
-				<Item Name="Probe-AttrMap As Tree.vi" Type="VI" URL="../Probe/Probe-AttrMap As Tree.vi"/>
-				<Item Name="Probe-Variant As Tree.vi" Type="VI" URL="../Probe/Probe-Variant As Tree.vi"/>
+				<Item Name="Probe-AttrMap As Tree.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/Probe/Probe-AttrMap As Tree.vi"/>
+				<Item Name="Probe-Variant As Tree.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/Probe/Probe-Variant As Tree.vi"/>
 			</Item>
-			<Item Name="lv-apt-json-file.lvlib" Type="Library" URL="../lv-apt-json-file.lvlib"/>
+			<Item Name="lv-apt-json-file.lvlib" Type="Library" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/lv-apt-json-file.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -42,7 +42,6 @@
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Change Data With Attributes_nevstop.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Data/Change Data With Attributes_nevstop.vim"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="ClusterCfgTable_nevstop.lvlib" Type="Library" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/ClusterCfgTable_nevstop.lvlib"/>
 				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
@@ -141,6 +140,7 @@
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Indexed String To Enum_nevstop.vi" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Configuration/ClusterCfgTable/Indexed String To Enum_nevstop.vi"/>
 				<Item Name="ini_configuration.lvlib" Type="Library" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Configuration/Ini/ini_configuration.lvlib"/>
 				<Item Name="JSON Pretty Printer.lvlib" Type="Library" URL="/&lt;userlib&gt;/FTools/JSON Pretty Printer/JSON Pretty Printer.lvlib"/>
 				<Item Name="MGI Caller&apos;s VI Reference.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI VI Reference/MGI Caller&apos;s VI Reference.vi"/>
@@ -218,7 +218,6 @@
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
-				<Item Name="Scan Variant from String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Scan Variant from String__ogtk.vi"/>
 				<Item Name="Search 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Search 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Search 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CSG)__ogtk.vi"/>
@@ -442,7 +441,6 @@
 				<Item Name="Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Is an Error__jki_lib_error_handling -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
-				<Item Name="JSON Lexer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/Deserializer/JSON Lexer/JSON Lexer.lvclass"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="Multi-line String to Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Multi-line String to Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
