@@ -5,63 +5,63 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="_Support" Type="Folder">
-		<Item Name="__AttrMap-GetValue2.vi" Type="VI" URL="../_Support/__AttrMap-GetValue2.vi"/>
-		<Item Name="__AttrMap-SetValue2.vi" Type="VI" URL="../_Support/__AttrMap-SetValue2.vi"/>
-		<Item Name="__ExpandNameMapIfNeeded.vi" Type="VI" URL="../_Support/__ExpandNameMapIfNeeded.vi"/>
-		<Item Name="__Set Variant Attributes with TD Validation.vi" Type="VI" URL="../_Support/__Set Variant Attributes with TD Validation.vi"/>
-		<Item Name="__toLowerCase.vi" Type="VI" URL="../_Support/__toLowerCase.vi"/>
-		<Item Name="__UnpackNameMap.vi" Type="VI" URL="../_Support/__UnpackNameMap.vi"/>
-		<Item Name="__ValidateDataTD.vi" Type="VI" URL="../_Support/__ValidateDataTD.vi"/>
+		<Item Name="__AttrMap-GetValue2.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__AttrMap-GetValue2.vi"/>
+		<Item Name="__AttrMap-SetValue2.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__AttrMap-SetValue2.vi"/>
+		<Item Name="__ExpandNameMapIfNeeded.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__ExpandNameMapIfNeeded.vi"/>
+		<Item Name="__Set Variant Attributes with TD Validation.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__Set Variant Attributes with TD Validation.vi"/>
+		<Item Name="__toLowerCase.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__toLowerCase.vi"/>
+		<Item Name="__UnpackNameMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__UnpackNameMap.vi"/>
+		<Item Name="__ValidateDataTD.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_Support/__ValidateDataTD.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="AttrMap" Type="Folder">
 			<Item Name="AttrMap -- Cluster" Type="Folder">
-				<Item Name="AttrMapToCluster.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Cluster/AttrMapToCluster.vi"/>
-				<Item Name="ClusterToAttrMap.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Cluster/ClusterToAttrMap.vi"/>
+				<Item Name="AttrMapToCluster.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Cluster/AttrMapToCluster.vi"/>
+				<Item Name="ClusterToAttrMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Cluster/ClusterToAttrMap.vi"/>
 			</Item>
 			<Item Name="AttrMap -- Json" Type="Folder">
-				<Item Name="AttrMapToJson.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Json/AttrMapToJson.vi"/>
-				<Item Name="JsonToAttrMap.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Json/JsonToAttrMap.vi"/>
+				<Item Name="AttrMapToJson.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Json/AttrMapToJson.vi"/>
+				<Item Name="JsonToAttrMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Json/JsonToAttrMap.vi"/>
 			</Item>
-			<Item Name="AttrMap-GetOrgKey.vi" Type="VI" URL="../API/AttrMap/AttrMap-GetOrgKey.vi"/>
-			<Item Name="AttrMap-GetValue.vim" Type="VI" URL="../API/AttrMap/AttrMap-GetValue.vim"/>
-			<Item Name="AttrMap-GetValueAsString.vim" Type="VI" URL="../API/AttrMap/AttrMap-GetValueAsString.vim"/>
-			<Item Name="AttrMap-ImportCluster.vi" Type="VI" URL="../API/AttrMap/AttrMap-ImportCluster.vi"/>
-			<Item Name="AttrMap-Merge.vi" Type="VI" URL="../API/AttrMap/AttrMap-Merge.vi"/>
-			<Item Name="AttrMap-Preview.vi" Type="VI" URL="../API/AttrMap/AttrMap-Preview.vi"/>
-			<Item Name="AttrMap-SetValue.vim" Type="VI" URL="../API/AttrMap/AttrMap-SetValue.vim"/>
-			<Item Name="RawAttrMap.vi" Type="VI" URL="../API/AttrMap/RawAttrMap.vi"/>
+			<Item Name="AttrMap-GetOrgKey.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-GetOrgKey.vi"/>
+			<Item Name="AttrMap-GetValue.vim" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-GetValue.vim"/>
+			<Item Name="AttrMap-GetValueAsString.vim" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-GetValueAsString.vim"/>
+			<Item Name="AttrMap-ImportCluster.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-ImportCluster.vi"/>
+			<Item Name="AttrMap-Merge.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-Merge.vi"/>
+			<Item Name="AttrMap-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-Preview.vi"/>
+			<Item Name="AttrMap-SetValue.vim" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-SetValue.vim"/>
+			<Item Name="RawAttrMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/RawAttrMap.vi"/>
 		</Item>
 		<Item Name="Json" Type="Folder">
 			<Item Name="PatchVIs" Type="Folder">
-				<Item Name="Anything To StringKey.vim" Type="VI" URL="../API/Json/PatchVIs/Anything To StringKey.vim"/>
+				<Item Name="Anything To StringKey.vim" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/Json/PatchVIs/Anything To StringKey.vim"/>
 			</Item>
-			<Item Name="Json Validate.vi" Type="VI" URL="../API/Json/Json Validate.vi"/>
-			<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../API/Json/Patch of Unflatten Json String.vi"/>
-			<Item Name="Remove Comments.vi" Type="VI" URL="../API/Json/Remove Comments.vi"/>
-			<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="../API/Json/Unflatten From JSON String(lv-apt).vi"/>
+			<Item Name="Json Validate.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/Json/Json Validate.vi"/>
+			<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/Json/Patch of Unflatten Json String.vi"/>
+			<Item Name="Remove Comments.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/Json/Remove Comments.vi"/>
+			<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/Json/Unflatten From JSON String(lv-apt).vi"/>
 		</Item>
 		<Item Name="JsonFile" Type="Folder">
-			<Item Name="JsonFile Load.vi" Type="VI" URL="../API/JsonFile/JsonFile Load.vi"/>
-			<Item Name="JsonFile Save.vi" Type="VI" URL="../API/JsonFile/JsonFile Save.vi"/>
+			<Item Name="JsonFile Load.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile Load.vi"/>
+			<Item Name="JsonFile Save.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile Save.vi"/>
 		</Item>
 		<Item Name="NameMap" Type="Folder">
-			<Item Name="NameMap-Check.vi" Type="VI" URL="../API/NameMap/NameMap-Check.vi"/>
-			<Item Name="NameMap-Merge.vi" Type="VI" URL="../API/NameMap/NameMap-Merge.vi"/>
-			<Item Name="NameMap-Store.vi" Type="VI" URL="../API/NameMap/NameMap-Store.vi"/>
+			<Item Name="NameMap-Check.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/NameMap/NameMap-Check.vi"/>
+			<Item Name="NameMap-Merge.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/NameMap/NameMap-Merge.vi"/>
+			<Item Name="NameMap-Store.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/NameMap/NameMap-Store.vi"/>
 		</Item>
 		<Item Name="VAttributes" Type="Folder">
-			<Item Name="Data-Preview.vi" Type="VI" URL="../API/VAttributes/Data-Preview.vi"/>
-			<Item Name="DataToVAttrbutes.vi" Type="VI" URL="../API/VAttributes/DataToVAttrbutes.vi"/>
-			<Item Name="StripDataFromVAttributes.vi" Type="VI" URL="../API/VAttributes/StripDataFromVAttributes.vi"/>
-			<Item Name="Variant-Preview.vi" Type="VI" URL="../API/VAttributes/Variant-Preview.vi"/>
-			<Item Name="VAttrbutes-Merge.vi" Type="VI" URL="../API/VAttributes/VAttrbutes-Merge.vi"/>
-			<Item Name="VAttrbutes-Preview.vi" Type="VI" URL="../API/VAttributes/VAttrbutes-Preview.vi"/>
-			<Item Name="VAttrbutesToData.vi" Type="VI" URL="../API/VAttributes/VAttrbutesToData.vi"/>
+			<Item Name="Data-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/Data-Preview.vi"/>
+			<Item Name="DataToVAttrbutes.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/DataToVAttrbutes.vi"/>
+			<Item Name="StripDataFromVAttributes.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/StripDataFromVAttributes.vi"/>
+			<Item Name="Variant-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/Variant-Preview.vi"/>
+			<Item Name="VAttrbutes-Merge.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/VAttrbutes-Merge.vi"/>
+			<Item Name="VAttrbutes-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/VAttrbutes-Preview.vi"/>
+			<Item Name="VAttrbutesToData.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/VAttrbutesToData.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
-		<Item Name="Def-AttrMap.ctl" Type="VI" URL="../Typedef/Def-AttrMap.ctl"/>
-		<Item Name="Def-NameMap.ctl" Type="VI" URL="../Typedef/Def-NameMap.ctl"/>
+		<Item Name="Def-AttrMap.ctl" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/Typedef/Def-AttrMap.ctl"/>
+		<Item Name="Def-NameMap.ctl" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/Typedef/Def-NameMap.ctl"/>
 	</Item>
 </Library>
