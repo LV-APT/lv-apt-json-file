@@ -28,14 +28,14 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="AttrMap" Type="Folder">
 			<Item Name="AttrMap -- Cluster" Type="Folder">
-				<Item Name="AttrMapToCluster.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/AttrMap/AttrMap -- Cluster/AttrMapToCluster.vi"/>
+				<Item Name="AttrMapToCluster.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Cluster/AttrMapToCluster.vi"/>
 				<Item Name="ClusterToAttrMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Cluster/ClusterToAttrMap.vi"/>
 			</Item>
 			<Item Name="AttrMap -- Json" Type="Folder">
-				<Item Name="AttrMapToJson.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/AttrMap/AttrMap -- Json/AttrMapToJson.vi"/>
-				<Item Name="JsonToAttrMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/AttrMap/AttrMap -- Json/JsonToAttrMap.vi"/>
+				<Item Name="AttrMapToJson.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Json/AttrMapToJson.vi"/>
+				<Item Name="JsonToAttrMap.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap -- Json/JsonToAttrMap.vi"/>
 			</Item>
-			<Item Name="AttrMap-GetOrgKey.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/AttrMap/AttrMap-GetOrgKey.vi"/>
+			<Item Name="AttrMap-GetOrgKey.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-GetOrgKey.vi"/>
 			<Item Name="AttrMap-GetValue.vim" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-GetValue.vim"/>
 			<Item Name="AttrMap-GetValueAsString.vim" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-GetValueAsString.vim"/>
 			<Item Name="AttrMap-ImportCluster.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/AttrMap/AttrMap-ImportCluster.vi"/>
@@ -58,10 +58,10 @@
 		</Item>
 		<Item Name="JsonFile" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="JsonFile GetAttribute.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/JsonFile/JsonFile GetAttribute.vi"/>
+			<Item Name="JsonFile GetAttribute.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile GetAttribute.vi"/>
 			<Item Name="JsonFile Load.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile Load.vi"/>
-			<Item Name="JsonFile Save.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/JsonFile/JsonFile Save.vi"/>
-			<Item Name="JsonFile SetAttribute.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/JsonFile/JsonFile SetAttribute.vi"/>
+			<Item Name="JsonFile Save.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile Save.vi"/>
+			<Item Name="JsonFile SetAttribute.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonFile SetAttribute.vi"/>
 			<Item Name="JsonString To VariantStringAttrs.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/JsonString To VariantStringAttrs.vi"/>
 			<Item Name="dir.mnu" Type="Document" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/JsonFile/dir.mnu"/>
 		</Item>
@@ -77,7 +77,7 @@
 			<Item Name="Data-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/Data-Preview.vi"/>
 			<Item Name="DataToVAttrbutes.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/DataToVAttrbutes.vi"/>
 			<Item Name="StripDataFromVAttributes.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/StripDataFromVAttributes.vi"/>
-			<Item Name="Variant-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/.lv-apt-json-file/API/VAttributes/Variant-Preview.vi"/>
+			<Item Name="Variant-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/Variant-Preview.vi"/>
 			<Item Name="VAttrbutes-Merge.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/VAttrbutes-Merge.vi"/>
 			<Item Name="VAttrbutes-Preview.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/VAttrbutes-Preview.vi"/>
 			<Item Name="VAttrbutesToData.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/API/VAttributes/VAttrbutesToData.vi"/>
