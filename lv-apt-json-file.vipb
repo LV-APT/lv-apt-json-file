@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2022-01-14 15:36:22" Modified_Date="2022-01-17 13:40:26" Creator="test" Comments="" ID="fa756c2d256612d035b3c197611547a8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2022-01-14 15:36:22" Modified_Date="2022-01-17 13:58:28" Creator="test" Comments="" ID="8a966d227d7ab70dd082c9dd44af5c10">
   <Library_General_Settings>
     <Package_File_Name>lvAPT_lib_lv_apt_json_file</Package_File_Name>
-    <Library_Version>0.1.0.2</Library_Version>
+    <Library_Version>0.1.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_vip</Library_Output_Folder>
@@ -171,8 +171,8 @@
         <Syncing_MNU_file/>
       </Controls_Palette_Information>
       <Functions_Palette_Information>
-        <Virtual_Palette_Base_Path>Functions</Virtual_Palette_Base_Path>
-        <Palette_Disk_Base_Path>&lt;menus&gt;\Categories</Palette_Disk_Base_Path>
+        <Virtual_Palette_Base_Path>Functions\Addons</Virtual_Palette_Base_Path>
+        <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons</Palette_Disk_Base_Path>
         <Syncing_MNU_file/>
       </Functions_Palette_Information>
       <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
