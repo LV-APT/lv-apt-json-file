@@ -11,20 +11,21 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_TEST" Type="Folder">
-			<Item Name="lv-apt-json-file-test.lvlib" Type="Library" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_TEST/lv-apt-json-file-test.lvlib"/>
+			<Item Name="lv-apt-json-file-test.lvlib" Type="Library" URL="../_TEST/lv-apt-json-file-test.lvlib"/>
 		</Item>
 		<Item Name="_testcases" Type="Folder">
 			<Item Name="MyTestCase" Type="Folder">
-				<Item Name="MyTestCase.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/_testcases/MyTestCase/MyTestCase.lvclass"/>
+				<Item Name="MyTestCase.lvclass" Type="LVClass" URL="../_testcases/MyTestCase/MyTestCase.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="Probe" Type="Folder">
-				<Item Name="Probe-AttrMap As Tree.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/Probe/Probe-AttrMap As Tree.vi"/>
-				<Item Name="Probe-Variant As Tree.vi" Type="VI" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/Probe/Probe-Variant As Tree.vi"/>
+				<Item Name="Probe-AttrMap As Tree.vi" Type="VI" URL="../Probe/Probe-AttrMap As Tree.vi"/>
+				<Item Name="Probe-Variant As Tree.vi" Type="VI" URL="../Probe/Probe-Variant As Tree.vi"/>
 			</Item>
-			<Item Name="lv-apt-json-file.lvlib" Type="Library" URL="/&lt;userlib&gt;/_lvAPT/lv-apt-json-file/lv-apt-json-file.lvlib"/>
+			<Item Name="lv-apt-json-file.lvlib" Type="Library" URL="../lv-apt-json-file.lvlib"/>
 		</Item>
+		<Item Name="lv-apt-json-file.vipb" Type="Document" URL="../lv-apt-json-file.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
