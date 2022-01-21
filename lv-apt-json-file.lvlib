@@ -13,6 +13,7 @@
 		<Item Name="__UnpackNameMap.vi" Type="VI" URL="../_Support/__UnpackNameMap.vi"/>
 		<Item Name="__ValidateDataTD.vi" Type="VI" URL="../_Support/__ValidateDataTD.vi"/>
 		<Item Name="_JsonFile_GetAttribute.vi" Type="VI" URL="../API/JsonFile/Support/_JsonFile_GetAttribute.vi"/>
+		<Item Name="_JsonFile_SetAttribute.vi" Type="VI" URL="../API/JsonFile/Support/_JsonFile_SetAttribute.vi"/>
 		<Item Name="JsonFile_GetAttribute(Boolean).vi" Type="VI" URL="../API/JsonFile/Support/JsonFile_GetAttribute(Boolean).vi"/>
 		<Item Name="JsonFile_GetAttribute(DBL).vi" Type="VI" URL="../API/JsonFile/Support/JsonFile_GetAttribute(DBL).vi"/>
 		<Item Name="JsonFile_GetAttribute(Numeric).vi" Type="VI" URL="../API/JsonFile/Support/JsonFile_GetAttribute(Numeric).vi"/>
@@ -55,9 +56,9 @@
 		</Item>
 		<Item Name="JsonFile" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="JsonFile GetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile GetAttribute.vi"/>
 			<Item Name="JsonFile Load.vi" Type="VI" URL="../API/JsonFile/JsonFile Load.vi"/>
 			<Item Name="JsonFile Save.vi" Type="VI" URL="../API/JsonFile/JsonFile Save.vi"/>
+			<Item Name="JsonFile GetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile GetAttribute.vi"/>
 			<Item Name="JsonFile SetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile SetAttribute.vi"/>
 			<Item Name="JsonString To VariantStringAttrs.vi" Type="VI" URL="../API/JsonFile/JsonString To VariantStringAttrs.vi"/>
 		</Item>
