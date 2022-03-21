@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2022-01-14 15:36:22" Modified_Date="2022-01-21 15:59:33" Creator="test" Comments="" ID="e664a701bec7f4547bd5f58a12b85d41">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2022-01-14 15:36:22" Modified_Date="2022-03-21 11:19:09" Creator="test" Comments="" ID="8dd6f6fdeda1f47bd425d19b3c4ac2fd">
   <Library_General_Settings>
     <Package_File_Name>lvapt_support_json</Package_File_Name>
-    <Library_Version>2022.1.21.9</Library_Version>
+    <Library_Version>2022.3.21.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_vip</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>jdp_science_jsontext &gt;=1.6.9.111</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_json_serialization &gt;=1.1.10.37</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>nevstop_programming_palette &gt;=2022.1.17.2</Additional_External_Dependencies>
@@ -138,9 +139,6 @@
       </Exclusions>
       <Exclusions>
         <Path>lv-apt-json-file.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>_vip</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>

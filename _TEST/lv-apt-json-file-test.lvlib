@@ -9,4 +9,5 @@
 	<Item Name="_TEST2.vi" Type="VI" URL="../_TEST2.vi"/>
 	<Item Name="_test_validate_json_format.vi" Type="VI" URL="../_test_validate_json_format.vi"/>
 	<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
+	<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 </Library>
