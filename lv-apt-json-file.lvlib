@@ -40,6 +40,17 @@
 			<Item Name="JsonFile SetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile SetAttribute.vi"/>
 			<Item Name="JsonString To VariantStringAttrs.vi" Type="VI" URL="../API/JsonFile/JsonString To VariantStringAttrs.vi"/>
 		</Item>
+		<Item Name="Json" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="PatchVIs" Type="Folder">
+				<Item Name="Anything To StringKey.vim" Type="VI" URL="../API/Json/PatchVIs/Anything To StringKey.vim"/>
+			</Item>
+			<Item Name="Json Validate.vi" Type="VI" URL="../API/Json/Json Validate.vi"/>
+			<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../API/Json/Patch of Unflatten Json String.vi"/>
+			<Item Name="Remove Comments.vi" Type="VI" URL="../API/Json/Remove Comments.vi"/>
+			<Item Name="Remove Comments(Obsolete).vi" Type="VI" URL="../API/Json/Remove Comments(Obsolete).vi"/>
+			<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="../API/Json/Unflatten From JSON String(lv-apt).vi"/>
+		</Item>
 		<Item Name="AttrMap" Type="Folder">
 			<Item Name="AttrMap -- Cluster" Type="Folder">
 				<Item Name="AttrMapToCluster.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Cluster/AttrMapToCluster.vi"/>
@@ -57,17 +68,6 @@
 			<Item Name="AttrMap-Preview.vi" Type="VI" URL="../API/AttrMap/AttrMap-Preview.vi"/>
 			<Item Name="AttrMap-SetValue.vim" Type="VI" URL="../API/AttrMap/AttrMap-SetValue.vim"/>
 			<Item Name="RawAttrMap.vi" Type="VI" URL="../API/AttrMap/RawAttrMap.vi"/>
-		</Item>
-		<Item Name="Json" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="PatchVIs" Type="Folder">
-				<Item Name="Anything To StringKey.vim" Type="VI" URL="../API/Json/PatchVIs/Anything To StringKey.vim"/>
-			</Item>
-			<Item Name="Json Validate.vi" Type="VI" URL="../API/Json/Json Validate.vi"/>
-			<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../API/Json/Patch of Unflatten Json String.vi"/>
-			<Item Name="Remove Comments.vi" Type="VI" URL="../API/Json/Remove Comments.vi"/>
-			<Item Name="Remove Comments(Obsolete).vi" Type="VI" URL="../API/Json/Remove Comments(Obsolete).vi"/>
-			<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="../API/Json/Unflatten From JSON String(lv-apt).vi"/>
 		</Item>
 		<Item Name="NameMap" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
