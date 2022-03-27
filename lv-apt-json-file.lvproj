@@ -20,7 +20,9 @@
 				<Item Name="MyTestCase.lvclass" Type="LVClass" URL="../_testcases/MyTestCase/MyTestCase.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="_vip" Type="Folder"/>
+		<Item Name="_vip" Type="Folder" URL="../_vip">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="Probe" Type="Folder">
 				<Item Name="Probe-AttrMap As Tree.vi" Type="VI" URL="../Probe/Probe-AttrMap As Tree.vi"/>
