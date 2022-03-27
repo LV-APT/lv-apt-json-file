@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="_Support" Type="Folder">
 		<Item Name="__AttrMap-GetValue2.vi" Type="VI" URL="../_Support/__AttrMap-GetValue2.vi"/>
 		<Item Name="__AttrMap-SetValue2.vi" Type="VI" URL="../_Support/__AttrMap-SetValue2.vi"/>
@@ -25,7 +26,31 @@
 		<Item Name="JsonFile_SetAttribute(Path).vi" Type="VI" URL="../API/JsonFile/Support/JsonFile_SetAttribute(Path).vi"/>
 		<Item Name="JsonFile_SetAttribute(String).vi" Type="VI" URL="../API/JsonFile/Support/JsonFile_SetAttribute(String).vi"/>
 	</Item>
+	<Item Name="Typedef" Type="Folder">
+		<Item Name="Def-AttrMap.ctl" Type="VI" URL="../Typedef/Def-AttrMap.ctl"/>
+		<Item Name="Def-NameMap.ctl" Type="VI" URL="../Typedef/Def-NameMap.ctl"/>
+	</Item>
 	<Item Name="API" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="JsonFile" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="JsonFile Load.vi" Type="VI" URL="../API/JsonFile/JsonFile Load.vi"/>
+			<Item Name="JsonFile Save.vi" Type="VI" URL="../API/JsonFile/JsonFile Save.vi"/>
+			<Item Name="JsonFile GetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile GetAttribute.vi"/>
+			<Item Name="JsonFile SetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile SetAttribute.vi"/>
+			<Item Name="JsonString To VariantStringAttrs.vi" Type="VI" URL="../API/JsonFile/JsonString To VariantStringAttrs.vi"/>
+		</Item>
+		<Item Name="Json" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="PatchVIs" Type="Folder">
+				<Item Name="Anything To StringKey.vim" Type="VI" URL="../API/Json/PatchVIs/Anything To StringKey.vim"/>
+			</Item>
+			<Item Name="Json Validate.vi" Type="VI" URL="../API/Json/Json Validate.vi"/>
+			<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../API/Json/Patch of Unflatten Json String.vi"/>
+			<Item Name="Remove Comments.vi" Type="VI" URL="../API/Json/Remove Comments.vi"/>
+			<Item Name="Remove Comments(Obsolete).vi" Type="VI" URL="../API/Json/Remove Comments(Obsolete).vi"/>
+			<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="../API/Json/Unflatten From JSON String(lv-apt).vi"/>
+		</Item>
 		<Item Name="AttrMap" Type="Folder">
 			<Item Name="AttrMap -- Cluster" Type="Folder">
 				<Item Name="AttrMapToCluster.vi" Type="VI" URL="../API/AttrMap/AttrMap -- Cluster/AttrMapToCluster.vi"/>
@@ -44,24 +69,6 @@
 			<Item Name="AttrMap-SetValue.vim" Type="VI" URL="../API/AttrMap/AttrMap-SetValue.vim"/>
 			<Item Name="RawAttrMap.vi" Type="VI" URL="../API/AttrMap/RawAttrMap.vi"/>
 		</Item>
-		<Item Name="Json" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="PatchVIs" Type="Folder">
-				<Item Name="Anything To StringKey.vim" Type="VI" URL="../API/Json/PatchVIs/Anything To StringKey.vim"/>
-			</Item>
-			<Item Name="Json Validate.vi" Type="VI" URL="../API/Json/Json Validate.vi"/>
-			<Item Name="Patch of Unflatten Json String.vi" Type="VI" URL="../API/Json/Patch of Unflatten Json String.vi"/>
-			<Item Name="Remove Comments.vi" Type="VI" URL="../API/Json/Remove Comments.vi"/>
-			<Item Name="Unflatten From JSON String(lv-apt).vi" Type="VI" URL="../API/Json/Unflatten From JSON String(lv-apt).vi"/>
-		</Item>
-		<Item Name="JsonFile" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="JsonFile Load.vi" Type="VI" URL="../API/JsonFile/JsonFile Load.vi"/>
-			<Item Name="JsonFile Save.vi" Type="VI" URL="../API/JsonFile/JsonFile Save.vi"/>
-			<Item Name="JsonFile GetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile GetAttribute.vi"/>
-			<Item Name="JsonFile SetAttribute.vi" Type="VI" URL="../API/JsonFile/JsonFile SetAttribute.vi"/>
-			<Item Name="JsonString To VariantStringAttrs.vi" Type="VI" URL="../API/JsonFile/JsonString To VariantStringAttrs.vi"/>
-		</Item>
 		<Item Name="NameMap" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="NameMap-Check.vi" Type="VI" URL="../API/NameMap/NameMap-Check.vi"/>
@@ -78,9 +85,5 @@
 			<Item Name="VAttrbutes-Preview.vi" Type="VI" URL="../API/VAttributes/VAttrbutes-Preview.vi"/>
 			<Item Name="VAttrbutesToData.vi" Type="VI" URL="../API/VAttributes/VAttrbutesToData.vi"/>
 		</Item>
-	</Item>
-	<Item Name="Typedef" Type="Folder">
-		<Item Name="Def-AttrMap.ctl" Type="VI" URL="../Typedef/Def-AttrMap.ctl"/>
-		<Item Name="Def-NameMap.ctl" Type="VI" URL="../Typedef/Def-NameMap.ctl"/>
 	</Item>
 </Library>
