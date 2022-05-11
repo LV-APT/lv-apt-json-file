@@ -30,5 +30,4 @@ jobs:
           Operation: vipm_BuildDailyVIP
           Parameter1: ${{ github.workspace }}\lvapt-Support-json.vipb
           Parameter2: YES
-          Parameter3: <desktop>\
           LabVIEW_Version: 2019
