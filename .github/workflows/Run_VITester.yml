@@ -29,7 +29,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Start Vi Tester
-        uses: LV-APT/lvCICD@documentation_before_release
+        uses: LV-APT/lvCICD@v0.1
         with:
           Operation: StartVITester
           Parameter1: ${{ github.workspace }}\lv-apt-json-file.lvproj
