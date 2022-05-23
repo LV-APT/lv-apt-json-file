@@ -25,23 +25,24 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: BuildDailyVIP
-        uses: LV-APT/lvCICD@v0.2
+        id: build-vip
+        uses: LV-APT/lvCICD@23-update-documentation
         with:
           Operation: vipm_BuildDailyVIP
           Parameter1: ${{ github.workspace }}\lvapt-Support-json.vipb
           Parameter2: YES
 
       # Zip vip
-      - name: Zip Vip file
-        run: Compress-Archive -LiteralPath '${{ github.workspace }}\_vip' -DestinationPath '${{ github.workspace }}\artifact.zip'
-        shell: powershell
+      # - name: Zip Vip file
+      #   run: Compress-Archive -LiteralPath '${{ github.workspace }}\_vip' -DestinationPath '${{ github.workspace }}\artifact.zip'
+      #   shell: powershell
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
           # Artifact name
-          name: lvapt-Support-json.vip.zip
-          path: ${{ github.workspace }}\artifact.zip
+          name: ${{ steps.build-vip.outputs.Result }}
+          path: ${{ steps.build-vip.outputs.Result }}
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           retention-days: 90
