@@ -32,27 +32,33 @@ jobs:
           Parameter1: ${{ github.workspace }}\lvapt-Support-json.vipb
           Parameter2: YES
 
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.0.0
-        with:
-          # Artifact name
-          name: lv-apt-json-file.vip
-          path: ${{ steps.build-vip.outputs.Result }}
-          # The desired behavior if no files are found using the provided path.
-          if-no-files-found: warn
-          retention-days: 90
-
-      # Zip vip
-      - name: Zip Vip file
-        run: Compress-Archive -LiteralPath '${{ steps.build-vip.outputs.Result }}' -DestinationPath '${{ github.workspace }}\vip.zip'
+      - id: vip-name
+        run:
+          $vipName=Split-Path -Path "C:\Test\Logs\abc.log" -Leaf;
+          Write-Host "::set-output name=vipName::"$vipName""
         shell: powershell
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
           # Artifact name
-          name: vip.zip
+          name: ${{ steps.vip-name.outputs.vipName }}
           path: ${{ steps.build-vip.outputs.Result }}
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           retention-days: 90
+
+      # Zip vip
+      # - name: Zip Vip file
+      #   run: Compress-Archive -LiteralPath '${{ steps.build-vip.outputs.Result }}' -DestinationPath '${{ github.workspace }}\vip.zip'
+      #   shell: powershell
+
+      # - name: Upload a Build Artifact
+      #   uses: actions/upload-artifact@v3.0.0
+      #   with:
+      #     # Artifact name
+      #     name: vip.zip
+      #     path: ${{ steps.build-vip.outputs.Result }}
+      #     # The desired behavior if no files are found using the provided path.
+      #     if-no-files-found: warn
+      #     retention-days: 90
