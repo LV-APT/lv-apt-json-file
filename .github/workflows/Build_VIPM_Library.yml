@@ -30,13 +30,18 @@ jobs:
           Operation: vipm_BuildDailyVIP
           Parameter1: ${{ github.workspace }}\lvapt-Support-json.vipb
           Parameter2: YES
-          
-      #- name: Upload a Build Artifact
-      #  uses: actions/upload-artifact@v3.0.0
-      #  with:
-      #    # Artifact name
-      #    name: lvapt-Support-json.vip
-      #    path: 
-      #    # The desired behavior if no files are found using the provided path.
-      #    if-no-files-found: warn
-      #    retention-days: # 90
+
+      # Zip vip
+      - name: Zip Vip file
+        run: Compress-Archive -LiteralPath '${{ github.workspace }}\_vip' -DestinationPath '${{ github.workspace }}\artifact.zip'
+        shell: powershell
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          # Artifact name
+          name: lvapt-Support-json.vip.zip
+          path: ${{ github.workspace }}\artifact.zip
+          # The desired behavior if no files are found using the provided path.
+          if-no-files-found: warn
+          retention-days: 90
